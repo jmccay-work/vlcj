@@ -1,3 +1,78 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+~*.xlsx
+
+
+# NetBeans files/folders
+build/
+distribution/
+.gradle
+.nb-gradle
+
+# ClearCase files
+.copyarea.dat
+.copyarea.db
+
+# Exclude CD Release and FTP Release directories
+WebPartner/setup/WebPartner/Product Configuration 1/CD Release/
+WebPartner/setup/WebPartner/Product Configuration 1/FTP Release/
+
+# exclude the Java JDK file
+WebPartner/webserver/partner/common/tools/jdk-*.exe
+WebPartner/webserver/partner/common/tools/jre-*.exe
+
+
+Product\ Configuration\ 1
+
+#exclude the InstallShield stuff
+WebPartner/setup/gitWebPartner/Product\ Configuration\ 1/
+WebPartner/setup/WebPartner/Product\ Configuration\ 1/
+
 bin
 target
 out
